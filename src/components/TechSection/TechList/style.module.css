@@ -1,0 +1,16 @@
+.techList {
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+  border: 1px solid rgba(255, 255, 255, 0.50);
+  border-radius: 25px;
+}
+
+
+.techList>div {
+  padding: 2.25rem;
+}
+
+.techList>img {
+  margin-left: 1.875rem;
+}

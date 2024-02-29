@@ -1,0 +1,22 @@
+.footer {
+    padding: 1rem 0;
+}
+
+
+.flexBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 210px;
+    gap: 2rem;
+    flex-wrap: wrap;
+    border: solid 1px white;
+    border-left: none;
+    border-right: none;
+}
+
+
+.imgIcon {
+    padding: 1rem;
+    margin-left: -15px;
+}

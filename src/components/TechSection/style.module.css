@@ -1,0 +1,29 @@
+.techSection {
+    padding: clamp(1.75rem, 6vw, 2.5rem) 0;
+}
+
+
+.techSection h2 {
+    margin-bottom: clamp(1.75rem, 6vw, 2.875rem);
+}
+
+
+.techList {
+    display: grid;
+    gap: 3.75rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+@media (max-width: 930px) {
+    .techList {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media (max-width: 580px) {
+    .techList {
+        grid-template-columns: 1fr;
+    }
+}

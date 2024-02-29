@@ -1,0 +1,22 @@
+.projectSection {
+    padding: clamp(1.75rem, 6vw, 2.5rem) 0;
+}
+
+
+.projectSection h2 {
+    margin-bottom: clamp(1.75rem, 6vw, 2rem);
+}
+
+
+.projectList {
+    display: grid;
+    gap: 3.75rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+@media (max-width: 630px) {
+    .projectList {
+        grid-template-columns: 1fr;
+    }
+}

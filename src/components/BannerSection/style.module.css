@@ -1,0 +1,45 @@
+.title3 {
+    color: #6880FF;
+}
+
+
+.flexBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2.375rem;
+}
+
+
+.flexBox>img,
+.flexBox>div {
+    width: 100%;
+}
+
+
+@media (min-width: 630px) {
+    .flexBox {
+        flex-direction: row;
+    }
+
+    .flexBox>img,
+    .flexBox>div {
+        width: 50%;
+    }
+}
+
+
+.bannerSection {
+    padding: 2rem 0;
+}
+
+
+.bannerSection h1 {
+    margin-bottom: 25px;
+}
+
+
+.bannerSection p {
+    margin-bottom: 40px;
+}

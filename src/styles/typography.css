@@ -1,0 +1,48 @@
+.title1 {
+    display: flex;
+    font-family: var(--font-primary);
+    font-size: clamp(1.1rem, 5vw, 3rem);
+    font-weight: 800;
+    color: var(--color-white);
+}
+
+
+.title2 {
+    font-family: var(--font-primary);
+    font-size: clamp(1.9rem, 5vw, 2.5rem);
+    font-weight: 800;
+    line-height: 1.4;
+    color: var(--color-white);
+}
+
+
+.title2.sm {
+    font-size: clamp(1rem, 5vw, 2.5rem);
+}
+
+
+.title3 {
+    font-family: var(--font-primary);
+    font-size: clamp(0.8rem, 5vw, 1rem);
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+
+.titleLarge {
+    color: var(--color-white);
+    font-family: var(--font-primary);
+    font-size: clamp(0.8rem, 5vw, 1.5rem);
+    font-weight: 800;
+
+
+}
+
+
+.paragraph {
+    font-family: var(--font-primary);
+    font-size: clamp(0.2rem, 5vw, 1rem);
+    font-weight: 400;
+    line-height: 2;
+    color: var(--color-white);
+}
